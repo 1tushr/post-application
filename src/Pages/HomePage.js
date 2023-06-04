@@ -8,7 +8,7 @@ const Home = () => {
   const { loading, error, items } = useSelector((state) => state);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div>Loading In Progress...</div>;
   }
 
   if (error) {
